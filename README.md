@@ -3,7 +3,6 @@
 An interactive **web application** built with **Python** and **Streamlit** that lets you generate secure passwords quickly and easily.
 You can choose between three password types — **Random**, **Memorable**, and **PIN Code** — and customize them based on your preferences.
 
----
 
 ## 🧩 Project Structure
 
@@ -15,8 +14,6 @@ password-generator-dashboard/
 ├── requirements.txt            # Project dependencies
 └── README.md                   # Documentation (this file)
 ```
-
----
 
 ## ⚙️ Requirements
 
@@ -43,8 +40,6 @@ import nltk
 nltk.download('words')
 ```
 
----
-
 ## ▶️ Running the Project
 
 To start the Streamlit app, run:
@@ -58,7 +53,6 @@ This will automatically open a browser window on your local server (usually at
 
 From the sidebar, choose the password type and settings you prefer, then click **Generate** to create your password.
 
----
 
 ## ✨ Features
 
@@ -71,7 +65,6 @@ From the sidebar, choose the password type and settings you prefer, then click *
 * Displays estimated **password entropy** (strength)
 * Keeps a short **password history** and allows clearing it
 
----
 
 ## 🧠 Code Overview
 
@@ -93,7 +86,6 @@ Implements the **Streamlit** interface:
 * Entropy calculation and strength indicator
 * Optional history of previously generated passwords
 
----
 
 ## 💡 Example Output
 
@@ -115,7 +107,6 @@ Implements the **Streamlit** interface:
 * [ ] Save user preferences in session state
 * [ ] Add **unit tests** with GitHub Actions CI
 
----
 
 ## 👩🏼‍💻 Author
 
